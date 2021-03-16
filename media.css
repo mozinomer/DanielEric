@@ -1,0 +1,77 @@
+@media only screen and (max-width: 767px) {
+	.flexedProjects {
+		padding: 0px;
+	}
+
+	.topContentContainer h2 {
+		font-size: 30px;
+	}
+
+	.topContentContainer {
+		padding: 50px 0px;
+	}
+
+	.topContentContainer h6 {
+		font-size: 17px;
+	}
+
+	.hamburger {
+		right: 20px;
+		top: 16px;
+	}
+
+	.aboutContainer h2 {
+		font-size: 33px;
+	}
+
+	.aboutContainer h2:after {
+		font-size: 33px;
+	}
+
+	div#projects p {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.boxContainerFlexed {
+		flex: 0 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.topContainerarorundIn {
+		/* min-height: 280px; */
+		overflow: hidden;
+	}
+
+	body:after {
+		/* height: 200px; */
+		/* background-size: cover; */
+	}
+	.aboutContainer p {
+		max-width: 100%;
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.contentLIstNews {
+		max-width: 100%;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.videos.listItemnews {
+		width: 100%;
+	}
+
+	div#projects .listContainerFlexed p {
+		max-width: 100%;
+	}
+	.singleContentpage h3 {
+		font-size: 22px;
+	}
+
+	div#projects .singleContentpage p {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
