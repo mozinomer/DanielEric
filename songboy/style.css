@@ -60,13 +60,18 @@ body.without-Login {
     border: 2px solid #f3b839;
     transition: 0.4s all;
 }
-
+@media only screen and (max-height: 600px) {
+	.formContainers {
+		margin-top: 100px;
+	}
+}
 .formContainers {
     height: 100%;
     /* background: red; */
     display: flex;
     align-items: center;
     justify-content: center;
+    
     min-height: 100vh;
 }
 
@@ -89,6 +94,9 @@ body.without-Login {
     line-height: normal;
 }
 
+.formSignings input:focus {
+	border-bottom: 2px solid #F6BC3E;	
+}
 .formSignings input {
     width: 100%;
     background: none;
@@ -171,4 +179,18 @@ a.afterFormButton:hover {
 
 .header ul li.last-child a:hover {
     background: none;
+}
+.or + p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px;
+}
+.formSignings > p {
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px 30px;
+    font-size: 17px;
+    line-height: 26px;
+    opacity: 0.6
 }
