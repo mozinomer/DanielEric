@@ -310,3 +310,79 @@ div#projects p.arrows {
     padding: 0px 20px;
     opacity: 1;
 }
+.socialShare ul {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    justify-content: center;
+    margin: 20px 0px 0px;
+}
+
+.socialShare li a {
+    margin: 0px 27px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/3.svg');
+    background-size: cover;
+    height: 50px;
+    color: #000;
+    font-size: 20px;
+}
+
+.socialShare label {
+    margin: 50px 0px 0px;
+    font-family: sbold;
+    font-size: 20px;
+}
+
+.socialShare li:first-child a {
+    margin-left: 0px;
+}
+.getinTouch h2 {
+    font-size: 33px;
+    padding: 0px 15px;
+}
+
+.getinTouch input,.getinTouch textarea {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ffffff8a;
+    width: 100%;
+    min-height: 50px;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.getinTouch textarea {
+    min-height: 130px;
+}
+
+.getinTouch button {
+    background: url('./images/2.svg');
+    background-size: 100% 100%;
+    display: flex;
+    padding: 10px 70px;
+    border: none;
+    margin-left: auto;
+    margin-top: 40px;
+    font-family: sbold;
+}
+
+ul.contactInfo a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+ul.contactInfo a img {
+    margin-right: 20px;
+}
+
+ul.contactInfo {
+    margin: 50px 0px;
+}
