@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body, ul,ol,p,.row
+{
+    margin: 0px;
+    font-family: regular;
+    list-style: none;
+    padding: 0px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1720px;
+        padding: 0px 100px;
+    }
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+*:focus {
+    outline: none !important;
+}
+body.without-Login {
+	background: url('./images/5.png');
+	background-size: cover;
+}
+.formContainers h2 {
+	font-family: 'Bebas Neue', cursive;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header ul li .sub-menu {
+    display: none;
+}
+
+.header ul li a {
+    padding: 30px 0px;
+    display: block;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.header ul li.last-child a {
+    padding: 11px 20px;
+    background: url('./images/3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #f3b839;
+    transition: 0.4s all;
+}
+
+.formContainers {
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.headerWithoutLogin {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.formSignings {
+    max-width: 450px;
+    margin: auto;
+}
+
+.formSignings h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 68px;
+    margin-bottom: 50px;
+    line-height: normal;
+}
+
+.formSignings input {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+a.forgot {
+    display: block;
+    text-align: right;
+    flex: 0 100%;
+    padding: 0px 15px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+button {}
+
+.formSignings button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 100%;
+    background: url(./images/3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    min-height: 53px;
+    margin: 30px auto;
+    border: 2px solid #f3b839;
+    transition: 0.4s all;
+}
+
+.formSignings button img {
+    right: 20px;
+    position: absolute;
+}
+
+.formSignings button:hover {
+    color: #f3b839;
+    background: none;
+}
+
+a.forgot:hover {
+    color: #f3b839;
+}
+
+.or {display: flex;justify-content: center;color: #fff;align-items: center;font-weight: 600;}
+
+span.lineOr {
+    margin: 0px 20px;
+    display: block;
+    width: 70px;
+    background: #ffffff33;
+    height: 1px;
+}
+
+a.afterFormButton {
+    border: 2px solid #FCAF39;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 56px;
+    margin: 30px 0px 0px;
+    font-size: 21px;
+    font-weight: 600;
+    transition: 0.4s all;
+}
+
+a.afterFormButton:hover {
+    background: #FCAF39;
+}
+
+.header ul li.last-child a:hover {
+    background: none;
+}
