@@ -1,0 +1,295 @@
+@media only screen and (max-width: 1360px) {
+	.bannerContainerHomepahe h2 {
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	.bannerContainerHomepahe p {
+		font-size: 15px;
+		margin: 20px 0px;
+		line-height: 26px;
+	}
+
+	.butt {
+		font-size: 13px;
+	}
+
+	.contentStartAfterBanner p {
+		font-size: 18px;
+	}
+
+	.sectionContainerHomepage h2 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 10px;
+	}
+
+	.contentSection2Container p {
+		font-size: 15px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+
+	.section3Homepage h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.section3Homepage p {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+	.headingContainer > p {
+		font-size: 15px;
+		line-height: 26px;
+	}
+
+	.headingContainer h2 {
+		font-size: 38px;
+	}
+
+	.contentWrapperListItems p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.contentWrapperListItems h4 {
+		font-size: 15px;
+	}
+
+	.contentWrapperListItems {
+		margin-left: 20px;
+	}
+
+	.videoMonitization h2 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	.videoMonitization .row p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.videoMonitization .row p.pbold {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.contentContainerLeftBox p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.contentContainerLeftBox h3 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	{
+		font-size: 32px;
+	}
+
+	.contentPara p {
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+	.authorInfo h4 {
+		font-size: 15px;
+	}
+
+	.authorInfo h4 span {
+		font-size: 11px;
+	}
+
+	.artistCont h2,.joinus h2,.testimonials h2  {
+		font-size: 32px;
+	}
+	.header ul li a {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.listContainerheader {display: none;}
+
+	.headerWithoutLogin {
+		padding: 20px 0px;
+	}
+
+	.bannerContainerHomepahe {
+		min-height: auto;
+		padding: 100px 0px 60px;
+		background-position: center;
+	}
+
+	.bannerContainerHomepahe h2 {
+		font-size: 28px;
+		line-height: normal;
+	}
+
+	.bannerContainerHomepahe p {
+		max-width: 100%;
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.contentStartAfterBanner {
+		padding: 20px 0px;
+	}
+
+	.contentStartAfterBanner p {
+		font-size: 14px;
+		line-height: 22px;
+		max-width: 100%;
+	}
+
+	.sectionContainerHomepage {
+		padding: 30px 0px;
+	}
+
+	.contentSection2Container {
+		max-width: 100%;
+	}
+
+	.sectionContainerHomepage h2 {
+		font-size: 22px;
+		line-height: normal;
+		font-weight: 700;
+	}
+
+	.contentSection2Container p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.section3Homepage p {
+		max-width: 100%;
+		line-height: 18px;
+		font-size: 13px;
+	}
+
+	.section3Homepage h2 {
+		font-size: 22px;
+		line-height: normal;
+		font-weight: 700;
+	}
+
+	.headingContainer h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.chooseSongBOy {
+		padding: 30px 0px;
+	}
+
+	.headingContainer > p {
+		font-size: 13px;
+		line-height: 19px;
+		font-weight: 400;
+	}
+
+	.chooseSongBOy li {
+		flex: 0 50%;
+		display: block;
+		text-align: center;
+	}
+
+	.imageWrapperMini {margin: auto;margin-bottom: 20px;}
+
+	.contentWrapperListItems {
+		max-width: 100%;
+		margin: 0px auto;
+		width: 90%;
+	}
+
+	.chooseSongBOy ul {
+		margin-bottom: 0px;
+	}
+
+	.videoMonitization h2 {
+		font-size: 22px;
+		font-weight: 700;
+		padding: 0px 15px;
+	}
+
+	.videoMonitization .row p {font-size: 13px;line-height: 20px;margin: 10px 0px;}
+
+	.leftBox {
+		display: block;
+	}
+
+	.contentContainerLeftBox {
+		width: 100%;
+		max-width: 100%;
+		padding: 30px 40px;
+	}
+
+	.flexed {
+		display: block;
+	}
+
+	.imageWrapperBox {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.imageWrapperBox img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		height: 300px;
+	}
+
+	.contentContainerLeftBox h3 {
+		font-size: 18px;
+		max-width: 100%;
+		line-height: 30px;
+	}
+
+	.testimonials h2 {
+		font-size: 22px;
+		line-height: normal;
+	}
+
+	.callToActionCenter {
+		padding: 20px 0px;
+	}
+
+	.joinus h2 {
+		font-size: 22px;
+	}
+
+	.artistCont h2 {
+		font-size: 22px;
+		line-height: normal;
+		font-weight: 700;
+	}
+
+	.joinus {
+		min-height: auto;
+		padding: 50px 0px;
+		background-position: center;
+	}
+	.testimoinalsLSliderMain {
+		padding-left: 20px;
+	}
+	.contentPara {
+		padding: 20px 20px;
+	}
+	img.traingleImage {
+		bottom: 0;
+		right: -70px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.sectionContainerHomepage {
+		overflow: hidden;
+	}
+}

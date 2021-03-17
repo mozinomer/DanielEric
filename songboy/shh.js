@@ -5,4 +5,13 @@ $('.testimonialsSlider').slick({
 	dots: false,
 	arrows: false,
 	centerMode: false,
+	responsive: [
+	{
+		breakpoint: 768,
+		settings: {
+			slidesToShow: 1.3,
+			slidesToScroll: 1,
+		}
+	}
+	]
 })
