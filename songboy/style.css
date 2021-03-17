@@ -362,10 +362,11 @@ img.traingleImage {
 }
 
 .section3Homepage h2 {
-    max-width: 800px;
-    font-size: 52px;
+    max-width: 700px;
+    font-size: 38px;
     text-align: center;
     margin: auto;
+    line-height: 53px;
 }
 
 .section3Homepage p {
@@ -395,7 +396,7 @@ img.traingleImage {
 }
 
 .headingContainer h2 {
-    font-size: 48px;
+    font-size: 38px;
     text-transform: capitalize;
 }
 
@@ -507,4 +508,110 @@ img.traingleImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.testimonials h2 {
+    margin-bottom: 50px;
+    font-size: 38px;
+}
+
+.testimoinalsLSliderMain {
+    max-width: 1480px;
+    margin-left: auto;
+}
+
+.contentPara {
+    background: #F4F4F4;
+    padding: 40px 40px  80px;
+    margin-bottom: 50px;
+    max-width: 90%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s all;
+    /* color: #fff; */
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.contentPara::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f4f4f4;
+    position: absolute;
+    bottom: -14px;
+    transform: rotate(135deg);
+    left: 4%;
+}
+
+.authorInfo {
+    display: flex;
+    align-items: center;
+}
+
+.authorInfo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.authorInfo h4 {
+    font-size: 18px;
+    margin-left: 17px;
+}
+
+.authorInfo h4 span {
+    display: block;
+    font-size: 13px;
+    margin: 5px 0px 0px;
+    opacity: 0.5;
+}
+
+.contentPara:hover {
+    background: #0201FC;
+    color: #fff;
+}
+
+.contentPara:hover::after {
+    border-top: 20px solid #0201FC;
+}
+.artistCont {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.artistCont h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.joinus {
+    min-height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+.joinus a.butt {
+    background: #fff;
+    color: #000;
+    margin: 20px auto 0px;
+    border: 2px solid #fff;
+}
+
+.joinus a.butt img {
+    filter: invert(1);
+}
+
+.joinus a.butt:hover {
+    background: none;
+    color: #fff;
+}
+
+.joinus a.butt:hover img {
+    filter: none;
 }
