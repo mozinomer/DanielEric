@@ -1,4 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: pblack;
+  src: url('./fonts/proximaNovaBlack.otf');
+}
+@font-face {
+  font-family: pbold;
+  src: url('./fonts/proximaNovaBold.otf');
+}
+@font-face {
+  font-family: pextrabold;
+  src: url('./fonts/proximaNovaExtrabold.otf');
+}
+@font-face {
+  font-family: pthin;
+  src: url('./fonts/proximaNovaThin.otf');
+}
+@font-face {
+  font-family: pregular;
+  src: url('./fonts/proximaNova-Regular.otf');
+}
+.pbold {
+    font-family: pbold;
+}
+.pextrabold {
+    font-family: pextrabold;
+}
+.pthin {
+    font-family: pthin;
+}
+.pregular {
+    font-family: pregular;
+}
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
 body, ul,ol,p,.row
 {
     margin: 0px;
