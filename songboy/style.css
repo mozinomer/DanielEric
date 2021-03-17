@@ -154,6 +154,7 @@ a.forgot {
     color: #fff;
     font-size: 17px;
     font-weight: 600;
+    font-family: pregular;
 }
 
 button {}
@@ -171,9 +172,12 @@ button {}
     font-size: 20px;
     font-weight: 600;
     min-height: 53px;
+    font-family: pbold;
     margin: 30px auto;
+    font-family: pregular;
     border: 2px solid #f3b839;
     transition: 0.4s all;
+    font-family: pbold;
 }
 
 .formSignings button img {
@@ -190,7 +194,7 @@ a.forgot:hover {
     color: #f3b839;
 }
 
-.or {display: flex;justify-content: center;color: #fff;align-items: center;font-weight: 600;}
+.or {display: flex;justify-content: center;color: #fff;align-items: center;font-weight: 600;font-family: pregular;}
 
 span.lineOr {
     margin: 0px 20px;
@@ -211,6 +215,7 @@ a.afterFormButton {
     font-size: 21px;
     font-weight: 600;
     transition: 0.4s all;
+    font-family: pbold;
 }
 
 a.afterFormButton:hover {
@@ -614,4 +619,56 @@ img.traingleImage {
 
 .joinus a.butt:hover img {
     filter: none;
+}
+input, textarea {
+    font-family: pregular;
+}
+.bannerPageContainer {
+    min-height: 542px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+}
+
+.bannerPageContainer h2 {
+    text-align: center;
+    font-size: 58px;
+}
+.repeaterContaienr {
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.repeaterContaienr > .row {
+    margin: 100px 0px;
+}
+
+.repeaterContaienr h2 {
+    font-size: 40px;
+    padding-left: 20px;
+    border-left: 3px solid #F6BC3E;
+    margin-bottom: 30px;
+}
+
+.repeaterContaienr p {opacity: 0.5;font-size: 15px;line-height: 28px;max-width: 400px;}
+
+.imageWrtapperContainer {
+    position: relative;
+}
+
+img.halfCircleimage {
+    position: absolute;
+    top: -30px;
+    left: -80px;
+    z-index: -1;
+}
+
+img.triangleimage {
+    position: absolute;
+    bottom: 0;
+    right: -0;
+}
+.repeaterContaienr .row:nth-child(even) {
+    flex-direction: row-reverse;
 }

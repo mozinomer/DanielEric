@@ -10,7 +10,7 @@ $('.testimonialsSlider').slick({
 		breakpoint: 768,
 		settings: {
 			slidesToShow: 1.3,
-			slidesToScroll: 1,
+			slidesToScroll: 1,	
 		}
 	}
 	]
