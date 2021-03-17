@@ -326,4 +326,31 @@
 
 	.formSignings h2 {
 	}
+	.bannerPageContainer {
+		background-size: cover;
+		background-position: center;
+		min-height: auto;
+		padding: 100px 0px 50px;
+	}
+
+	.repeaterContaienr {
+		padding: 0px;
+	}
+
+	.repeaterContaienr > .row {
+		margin: 40px 0px;
+	}
+
+	.repeaterContaienr h2 {
+		font-size: 22px;
+	}
+
+	.repeaterContaienr p {
+		line-height: 18px;
+		font-size: 13px;
+	}
+
+	.bannerPageContainer h2 {
+		font-size: 32px;
+	}
 }
