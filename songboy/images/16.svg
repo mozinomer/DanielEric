@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="-0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6bc3f"/>
+      <stop offset="0.404" stop-color="#d19223"/>
+      <stop offset="0.749" stop-color="#f7bc3c"/>
+      <stop offset="1" stop-color="#f4bc45"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_301" data-name="Group 301" transform="translate(-724 -3626)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="30" cy="30" r="30" transform="translate(724 3626)" fill="url(#linear-gradient)"/>
+    <g id="icons8-christmas_star_2" transform="translate(730 3632)">
+      <rect id="Rectangle_26" data-name="Rectangle 26" width="4.923" height="1.231" transform="translate(6 20)" fill="#fff"/>
+      <path id="Path_1" data-name="Path 1" d="M35.652,36.615a2.047,2.047,0,0,1-.948-.234L29.3,33.56a.812.812,0,0,0-.754,0l-5.4,2.821a2.031,2.031,0,0,1-2.151-.161,2.01,2.01,0,0,1-.8-1.978l1.033-5.974a.793.793,0,0,0-.231-.7l-4.372-4.231a2.025,2.025,0,0,1,1.128-3.46L23.788,19a.805.805,0,0,0,.607-.437l2.7-5.436a2.042,2.042,0,0,1,3.653,0l2.7,5.436a.806.806,0,0,0,.607.437l6.041.871a2.025,2.025,0,0,1,1.129,3.46l-4.372,4.231a.794.794,0,0,0-.231.7l1.033,5.974a2.01,2.01,0,0,1-.8,1.978A2.033,2.033,0,0,1,35.652,36.615Zm-6.729-4.379a2.047,2.047,0,0,1,.946.232l5.4,2.821a.8.8,0,0,0,.857-.064.779.779,0,0,0,.316-.775l-1.033-5.974a2.022,2.022,0,0,1,.588-1.8l4.372-4.231a.777.777,0,0,0,.2-.81.793.793,0,0,0-.653-.547l-6.04-.871a2.038,2.038,0,0,1-1.534-1.108l-2.7-5.436a.811.811,0,0,0-1.449,0l-2.7,5.436a2.038,2.038,0,0,1-1.534,1.108l-6.041.871a.79.79,0,0,0-.652.546.777.777,0,0,0,.2.81l4.372,4.231a2.021,2.021,0,0,1,.588,1.8L21.4,34.451a.778.778,0,0,0,.316.775.8.8,0,0,0,.857.064l5.4-2.821A2.042,2.042,0,0,1,28.923,32.236Z" transform="translate(-3.846)" fill="#fff"/>
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="8.615" height="1.231" transform="translate(9.692 16.308)" fill="#fff"/>
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="3.692" height="1.231" transform="translate(7.231 23.692)" fill="#fff"/>
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="4.308" height="1.231" transform="translate(9.692 27.385)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M33.631,22.415l1.418,2.861a.748.748,0,0,0,.562.407l3.172.458a.742.742,0,0,1,.414,1.268L36.9,29.636a.742.742,0,0,0-.215.658l.542,3.145a.746.746,0,0,1-1.083.783l-2.837-1.484a.749.749,0,0,0-.695,0l-2.837,1.484a.746.746,0,0,1-1.083-.783l.542-3.145a.742.742,0,0,0-.215-.658l-2.295-2.227a.742.742,0,0,1,.414-1.268l3.172-.458a.745.745,0,0,0,.562-.407l1.418-2.861A.749.749,0,0,1,33.631,22.415Z" transform="translate(-7.884 -3.846)" fill="#fff"/>
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="3.077" height="1.231" transform="translate(12.154 31.077)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

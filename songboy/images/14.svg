@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="-0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6bc3f"/>
+      <stop offset="0.404" stop-color="#d19223"/>
+      <stop offset="0.749" stop-color="#f7bc3c"/>
+      <stop offset="1" stop-color="#f4bc45"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_299" data-name="Group 299" transform="translate(-1217 -3404)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="30" cy="30" r="30" transform="translate(1217 3404)" fill="url(#linear-gradient)"/>
+    <g id="icons8-musical_notes" transform="translate(1226 3414)">
+      <path id="Path_5" data-name="Path 5" d="M29.928,13.866a1.618,1.618,0,0,0-1.37-.31L16.714,16.29a1.61,1.61,0,0,0-1.252,1.576v15.7a2.784,2.784,0,0,1-2.609,2.826,2.643,2.643,0,0,1-1.958-.758,2.671,2.671,0,0,1-.817-1.933,2.615,2.615,0,0,1,2.692-2.692V29.93a3.769,3.769,0,0,0,0,7.538l.118,0a3.868,3.868,0,0,0,3.653-3.9V23.249a.537.537,0,0,1,.417-.526L28.8,19.99a.539.539,0,0,1,.661.525v11.03a2.683,2.683,0,0,1-1,2.09,2.72,2.72,0,0,1-2.282.541,2.676,2.676,0,0,1-2.046-2.046,2.72,2.72,0,0,1,.541-2.282,2.339,2.339,0,0,1,2.09-1V27.776a3.853,3.853,0,0,0-2.927,1.393,3.77,3.77,0,1,0,6.7,2.376V15.132A1.608,1.608,0,0,0,29.928,13.866Zm-1.369,5.074L16.713,21.674c-.061.014-.175.036-.175.056V17.865a.537.537,0,0,1,.418-.526L28.8,14.606a.533.533,0,0,1,.458.1.541.541,0,0,1,.2.423V19A1.719,1.719,0,0,0,28.559,18.941Z" transform="translate(0 -3.469)" fill="#fff"/>
+      <path id="Path_6" data-name="Path 6" d="M39.54,6.364a1.586,1.586,0,0,0-1.32-.333L22.808,9.044l.207,1.057L38.428,7.087a.513.513,0,0,1,.429.109.581.581,0,0,1,.208.451V18.384h1.077V7.647A1.652,1.652,0,0,0,39.54,6.364Z" transform="translate(-6.373 0)" fill="#fff"/>
+      <path id="Path_7" data-name="Path 7" d="M14.615,48A1.615,1.615,0,1,1,13,49.615,1.615,1.615,0,0,1,14.615,48" transform="translate(-1.846 -19.385)" fill="#fff"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="1.615" cy="1.615" r="1.615" transform="translate(25.154 26.461)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
