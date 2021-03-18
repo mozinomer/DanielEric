@@ -26,10 +26,6 @@ $(window).on('scroll', function () {
 		'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
 		'opacity': 1 - scrolled / 400
 	});
-	$('.contentContainerLeftBox .imageWrapperBox').css({
-		'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
-		'opacity': 1 - scrolled / 400
-	});
 });
 
 $(document).ready(function() {
@@ -51,10 +47,12 @@ function animation() {
 	title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
 }
 $(window).scroll(function() {
+	var scrolled1 = $(this).scrollTop();
 	var top_of_element = $(".contentStartAfterBanner").offset().top;
 	var bottom_of_element = $(".contentStartAfterBanner").offset().top + $(".contentStartAfterBanner").outerHeight();
 	var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
 	var top_of_screen = $(window).scrollTop();
+
 	if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && flag){
 		animation();
 		console.log('in h')
