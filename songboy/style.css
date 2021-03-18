@@ -702,3 +702,27 @@ img.triangleimage {
 .butt img {
     transition: 0.3s all;
 }
+img {}
+
+.imageContainerLogos img {
+    display: inline-block;
+    /* margin: 0px 20px 20px; */
+    width: auto;
+}
+
+.imageContainerLogos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: auto;
+}
+.logoCOntainers {
+    flex: 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+span.title {
+    margin-right: 5px;
+}

@@ -26,6 +26,12 @@ $(window).on('scroll', function () {
 $(document).ready(function() {
 	$(".title").lettering();
 });
+    //     checks1 animation
+  var words = $(".checks1").text().split(" ");
+  $(".checks1").empty();
+  $.each(words, function(i, v) {
+    $(".checks1").append($('<span class="title">&nbsp;').text(v));
+  });
  var flag = true;
 function animation() {
 	var title1 = new TimelineMax();
