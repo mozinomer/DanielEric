@@ -738,3 +738,6 @@ h2.pregular {
         transform: none !important;
     }
 }
+.header li a:hover {
+    color: #f3b839;
+}

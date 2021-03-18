@@ -19,6 +19,8 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+	    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./media.css">
 </head>
@@ -34,8 +36,8 @@
 				</div>
 				<div class="listContainerheader">
 					<ul>
-						<li><a href="#">About</a></li>
-						<li class="has-children">
+						<li data-aos="fade-up" data-aos-duration="1000"><a href="#">About</a></li>
+						<li data-aos="fade-up" data-aos-duration="1500" class="has-children">
 							<a href="#">Services</a>
 							<ul class="sub-menu">
 								<li><a href="#">The Process</a></li>
@@ -44,11 +46,11 @@
 								<li><a href="#">Login</a></li>
 							</ul>
 						</li>
-						<li><a href="#">The Process</a></li>
-						<li><a href="#">Process</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Login</a></li>
-						<li class="last-child"><a href="#">Let’s Get Started</a></li>
+						<li data-aos="fade-up" data-aos-duration="2000"><a href="#">The Process</a></li>
+						<li data-aos="fade-up" data-aos-duration="2500"><a href="#">Process</a></li>
+						<li data-aos="fade-up" data-aos-duration="3000"><a href="#">Pricing</a></li>
+						<li data-aos="fade-up" data-aos-duration="3000"><a href="#">Login</a></li>
+						<li  data-aos="zoom-in" data-aos-duration="3000" class="last-child"><a href="#">Let’s Get Started</a></li>
 					</ul>
 				</div>
 			</div>
@@ -56,7 +58,7 @@
 	</div>
 	<div class="formContainers">
 		<div class="formSignings">
-			<h2>Sign in</h2>
+			<h2 data-aos="fade-up" data-aos-duration="1000">Sign in</h2>
 			<form>
 				<div class="row">
 					<div class="col-md-12">
@@ -65,8 +67,8 @@
 					<div class="col-md-12">
 						<input type="password" name="" placeholder="Password">
 					</div>
-					<a href="#" class="forgot">Forgot Password?</a>
-					<button type="submit">LOGIN <img src="./images/4.svg"></button>
+					<a href="#" class="forgot" data-aos="fade-right" data-aos-duration="1000">Forgot Password?</a>
+					<button  data-aos="fade-up" data-aos-duration="2000" type="submit">LOGIN <img src="./images/4.svg"></button>
 				</div>
 			</form>
 			<div class="or">
@@ -74,11 +76,14 @@
 				<span>Or</span>
 				<span class="lineOr"></span>
 			</div>
-			<a href="./signup.html" class="afterFormButton">Register Now</a>
+			<a  data-aos="fade-down" data-aos-duration="2000" href="./signup.html" class="afterFormButton">Register Now</a>
 		</div>
 	</div>
 
 
 </body>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script type="text/javascript" src="./shh.js"></script>
 </html>
