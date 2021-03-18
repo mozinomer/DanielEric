@@ -1,0 +1,164 @@
+@font-face {
+  font-family: avenirBook;
+  src: url('./fonts/avenirBook.ttf');
+}
+@font-face {
+  font-family: avenir;
+  src: url('./fonts/avenir.ttc');
+}
+
+
+body, .row, ul, ol {
+    margin: 0px;
+    font-family: avenir;
+}
+
+.containerLadingPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logoContainer {
+    text-align: center;
+    color: #fff;
+}
+
+.logoContainer img {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.logoContainer p {
+    font-size: 31px;
+    margin: 40px 0px;
+}
+
+.inputContainerForm {
+    max-width: 330px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inputContainerForm p {
+    flex: 0 100%;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    margin: 27px 0px 0px;
+}
+
+.inputContainerForm input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    background: none;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding-right: 140px;
+}
+
+.inputContainerForm button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 140px;
+    height: 40px;
+    background: #6ebfb9;
+    border: 2px solid #6ebfb9;
+    color: #fff;
+    font-size: 13px;
+}
+
+.inputContainerForm {
+    position: relative;
+}
+
+.inputContainerForm input::placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+.competetion h2, .competetion span, .competetion a {
+    color: #6ebfb9;
+}
+
+.foolowUs {display: flex;align-items: center;font-size: 30px;}
+
+.foolowUs img {
+    margin: 0px 20px;
+}
+
+.competetion {
+    margin: 90px 0px 0px;
+}
+
+.contentContainerVottom p {
+    color: #fff;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.foolowUs h3 {
+    font-size: 30px;
+    color: #fff;
+}
+.competetion h2 {
+    margin-bottom: 33px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .logoContainer p {
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    .competetion h2 {
+        text-align: center;
+    }
+
+    .containerLadingPage {
+        background-blend-mode: multiply;
+        background-color: #00000054;
+        background-size: 260% 100%;
+        background-position: center;
+    }
+
+    .foolowUs {
+        font-size: 19px;
+        justify-content: center;
+    }
+
+    .foolowUs h3 {
+        font-size: 19px;
+    }
+
+    .competetion {
+        margin: 40px 0px;
+    }
+
+    .contentContainerVottom {
+        margin: 20px 0px 0px;
+    }
+
+    .contentContainerVottom p {
+        text-align: center;
+    }
+}
