@@ -1,3 +1,8 @@
+if ( $(window).width() > 1000 ) {
+	AOS.init({
+		once: true
+	})
+}
 $('.testimonialsSlider').slick({
 	slidesToShow: 2.5,
 	slideToScroll: 2,
@@ -29,14 +34,14 @@ $(window).on('scroll', function () {
 
 $(document).ready(function() {
 	$(".title").lettering();
+
 });
-    //     checks1 animation
-  var words = $(".checks1").text().split(" ");
-  $(".checks1").empty();
-  $.each(words, function(i, v) {
-    $(".checks1").append($('<span class="title">&nbsp;').text(v));
-  });
- var flag = true;
+var words = $(".checks1").text().split(" ");
+$(".checks1").empty();
+$.each(words, function(i, v) {
+	$(".checks1").append($('<span class="title">&nbsp;').text(v));
+});
+var flag = true;
 function animation() {
 	var title1 = new TimelineMax();
 	title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
@@ -45,21 +50,14 @@ function animation() {
 		{ opacity: 1, height: 40}, 0.05);
 	title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
 }
-
 $(window).scroll(function() {
-              //         for flag  
-      var top_of_element = $(".contentStartAfterBanner").offset().top;
-      var bottom_of_element = $(".contentStartAfterBanner").offset().top + $(".contentStartAfterBanner").outerHeight();
-      var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-      var top_of_screen = $(window).scrollTop();
-      if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && flag){
-      	animation();
-      	console.log('in h')
-      	flag = false;
-      } else {}
-
-
+	var top_of_element = $(".contentStartAfterBanner").offset().top;
+	var bottom_of_element = $(".contentStartAfterBanner").offset().top + $(".contentStartAfterBanner").outerHeight();
+	var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+	var top_of_screen = $(window).scrollTop();
+	if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && flag){
+		animation();
+		console.log('in h')
+		flag = false;
+	} else {}
 });
-
-
-
