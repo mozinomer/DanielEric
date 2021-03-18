@@ -21,6 +21,10 @@ $(window).on('scroll', function () {
 		'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
 		'opacity': 1 - scrolled / 400
 	});
+	$('.contentContainerLeftBox .imageWrapperBox').css({
+		'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
+		'opacity': 1 - scrolled / 400
+	});
 });
 
 $(document).ready(function() {

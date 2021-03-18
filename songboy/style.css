@@ -702,8 +702,6 @@ img.triangleimage {
 .butt img {
     transition: 0.3s all;
 }
-img {}
-
 .imageContainerLogos img {
     display: inline-block;
     /* margin: 0px 20px 20px; */
@@ -725,4 +723,7 @@ img {}
 }
 span.title {
     margin-right: 5px;
+}
+.Rightbox .contentContainerLeftBox {
+    background: #000a13;
 }
