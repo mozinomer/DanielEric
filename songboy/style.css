@@ -246,6 +246,7 @@ a.afterFormButton:hover {
     color: #fff;
     padding: 80px 0px 0px;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bannerContainerHomepahe h2, .bannerContainerHomepahe p {
@@ -463,6 +464,10 @@ img.traingleImage {
 
 .imageWrappervideoMonit {
     margin: 50px 0px;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
 }
 
 .callToActionCenter {
@@ -671,4 +676,29 @@ img.triangleimage {
 }
 .repeaterContaienr .row:nth-child(even) {
     flex-direction: row-reverse;
+}
+.formSignings input {
+    color: #fff;
+}
+.title > span {
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 0;
+}
+.butt:hover {
+    padding-left: 10px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.butt:hover img {
+    /* position: absolute; */
+    right: 10px;
+    margin-left: 50px;
+}
+
+.butt img {
+    transition: 0.3s all;
 }
