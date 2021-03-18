@@ -634,6 +634,8 @@ input, textarea {
     align-items: center;
     color: #fff;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .bannerPageContainer h2 {
@@ -727,8 +729,10 @@ span.title {
 .Rightbox .contentContainerLeftBox {
     background: #000a13;
 }
-
-@media only screen and (max-width: 1000px) {
+h2.pregular {
+    font-family: pextrabold !important;
+}
+@media only screen and (max-width: 1040px) {
     [data-aos] {
         opacity: 1 !important;
         transform: none !important;

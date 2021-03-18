@@ -1,8 +1,3 @@
-if ( $(window).width() > 1000 ) {
-	AOS.init({
-		once: true
-	})
-}
 $('.testimonialsSlider').slick({
 	slidesToShow: 2.5,
 	slideToScroll: 2,
@@ -22,7 +17,7 @@ $('.testimonialsSlider').slick({
 });
 $(window).on('scroll', function () {
 	var scrolled = $(this).scrollTop();
-	$('.bannerContainerHomepahe .container').css({
+	$('.bannerContainerHomepahe .container, .bannerPageContainer .container').css({
 		'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
 		'opacity': 1 - scrolled / 400
 	});
@@ -31,6 +26,15 @@ $(window).on('scroll', function () {
 $(document).ready(function() {
 	$(".title").lettering();
 
+	if ($('.bannerContainerHomepahe').height() < 500) { 
+		console.log($('.bannerContainerHomepahe').height());
+		animation();
+	}
+	if ( $(window).width() > 1040 ) {
+		AOS.init({
+			once: true
+		})
+	}
 });
 var words = $(".checks1").text().split(" ");
 $(".checks1").empty();
@@ -41,21 +45,34 @@ var flag = true;
 function animation() {
 	var title1 = new TimelineMax();
 	title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
-	title1.staggerFromTo(".title span", 0.5, 
-		{ opacity: 1, height: 0},
-		{ opacity: 1, height: 40}, 0.05);
-	title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
-}
-$(window).scroll(function() {
-	var scrolled1 = $(this).scrollTop();
-	var top_of_element = $(".contentStartAfterBanner").offset().top;
-	var bottom_of_element = $(".contentStartAfterBanner").offset().top + $(".contentStartAfterBanner").outerHeight();
-	var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-	var top_of_screen = $(window).scrollTop();
-
-	if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && flag){
-		animation();
+	if ($(window).width() < 767) {
+		title1.staggerFromTo(".title span", 0.5, 
+			{ opacity: 1, height: 0},
+			{ opacity: 1, height: 20}, 0.05);
+		title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
 		console.log('in h')
-		flag = false;
-	} else {}
-});
+	} else {
+		title1.staggerFromTo(".title span", 0.5, 
+			{ opacity: 1, height: 0},
+			{ opacity: 1, height: 40}, 0.05);
+		title1.to(".button", 0.2, {visibility: 'visible' ,opacity: 1})
+		console.log('out h')
+	}
+	
+	
+}
+if ($(window).width() > 767) { 
+	$(window).scroll(function() {
+		var scrolled1 = $(this).scrollTop();
+		var top_of_element = $(".contentStartAfterBanner").offset().top;
+		var bottom_of_element = $(".contentStartAfterBanner").offset().top + $(".contentStartAfterBanner").outerHeight();
+		var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+		var top_of_screen = $(window).scrollTop();
+
+		if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && flag){
+			animation();
+			flag = false;
+		} else {}
+	});
+}
+
