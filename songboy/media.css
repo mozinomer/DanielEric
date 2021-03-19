@@ -132,6 +132,8 @@
 		min-height: auto;
 		padding: 100px 0px 60px;
 		background-position: center;
+		background-size: auto 110%;
+		background-position: bottom;
 	}
 
 	.bannerContainerHomepahe h2 {
@@ -282,6 +284,8 @@
 		min-height: auto;
 		padding: 50px 0px;
 		background-position: center;
+		background-attachment: fixed;
+		background-size: auto 40%;
 	}
 	.testimoinalsLSliderMain {
 		padding-left: 20px;
@@ -357,7 +361,8 @@
 	}
 	.imageWrappervideoMonit {
 		min-height: 200px;
-		background-attachment: scroll;
+		background-attachment: FIXED;
+		background-size: auto 60%;
 	}
 
 	.imageWrapperBox {
