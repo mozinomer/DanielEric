@@ -25,10 +25,12 @@ $(window).on('scroll', function () {
 
 $(document).ready(function() {
 	$(".title").lettering();
+	var flag = true;
 
-	if ($('.bannerContainerHomepahe').height() < 500) { 
+	if ($('.bannerContainerHomepahe').height() < 700) { 
 		console.log($('.bannerContainerHomepahe').height());
 		animation();
+		flag = false;
 	}
 	if ( $(window).width() > 1040 ) {
 		AOS.init({
@@ -49,7 +51,7 @@ $(".checks1").empty();
 $.each(words, function(i, v) {
 	$(".checks1").append($('<span class="title">&nbsp;').text(v));
 });
-var flag = true;
+
 function animation() {
 	var title1 = new TimelineMax();
 	title1.to(".button", 0, {visibility: 'hidden', opacity: 0})
