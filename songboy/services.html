@@ -19,6 +19,8 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./media.css">
 </head>
@@ -27,7 +29,7 @@
 		<div class="hamburger">
 			<span></span>
 			<span></span>
-			<span>o</span>
+			<span></span>
 		</div>
 		<div class="container">
 			<div class="header">
@@ -36,8 +38,8 @@
 				</div>
 				<div class="listContainerheader">
 					<ul>
-						<li><a href="#">About</a></li>
-						<li class="has-children">
+						<li data-aos="fade-up" data-aos-duration="1000"><a href="#">About</a></li>
+						<li data-aos="fade-up" data-aos-duration="1500" class="has-children">
 							<a href="#">Services</a>
 							<ul class="sub-menu">
 								<li><a href="#">The Process</a></li>
@@ -46,11 +48,11 @@
 								<li><a href="#">Login</a></li>
 							</ul>
 						</li>
-						<li><a href="#">The Process</a></li>
-						<li><a href="#">Process</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Login</a></li>
-						<li class="last-child"><a href="#">Let’s Get Started</a></li>
+						<li data-aos="fade-up" data-aos-duration="2000"><a href="#">The Process</a></li>
+						<li data-aos="fade-up" data-aos-duration="2500"><a href="#">Process</a></li>
+						<li data-aos="fade-up" data-aos-duration="3000"><a href="#">Pricing</a></li>
+						<li data-aos="fade-up" data-aos-duration="3000"><a href="#">Login</a></li>
+						<li  data-aos="zoom-in" data-aos-duration="3000" class="last-child"><a href="#">Let’s Get Started</a></li>
 					</ul>
 				</div>
 			</div>
@@ -65,14 +67,14 @@
 		<div class="container">
 			<div class="repeaterContaienr">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-right">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-left">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -81,14 +83,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-left">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-right">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -97,14 +99,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-right">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-left">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -113,14 +115,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-left">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-right">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -129,14 +131,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-right">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-left">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -145,14 +147,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-left">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-right">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -161,14 +163,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-right">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" data-aos="fade-left">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -177,14 +179,110 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-left">
 						<div class="contentContainerReapeater">
 							<h2 class="pbold">MARKETING</h2>
 							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
 							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6"  data-aos="fade-right">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" data-aos="fade-right">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6" data-aos="fade-left">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6"  data-aos="fade-left">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6"  data-aos="fade-right">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" data-aos="fade-right">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6" data-aos="fade-left">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6"  data-aos="fade-left">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6"  data-aos="fade-right">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6" data-aos="fade-right">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6" data-aos="fade-left">
+						<div class="imageWrtapperContainer">
+							<img src="./images/23.png">
+							<img src="./images/9.svg" class="halfCircleimage">
+							<img src="./images/10.svg" class="triangleimage">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6"  data-aos="fade-left">
+						<div class="contentContainerReapeater">
+							<h2 class="pbold">MARKETING</h2>
+							<p class="pregular">Take your release to the next level with access to high-quality marketing services including digital marketing, social media optimization, branding, creative design, release design packages, video design, advertising, playlist pitching, and more. Stay on top of a constantly evolving market.</p>
+							<a href="#" class="butt pbold">Learn more <img src="./images/4.svg"></a>
+						</div>
+					</div>
+					<div class="col-md-6"  data-aos="fade-right">
 						<div class="imageWrtapperContainer">
 							<img src="./images/23.png">
 							<img src="./images/9.svg" class="halfCircleimage">
@@ -202,5 +300,8 @@
 		</div>
 	</div>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script type="text/javascript" src="./shh.js"></script>
 </html>
