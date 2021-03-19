@@ -35,6 +35,14 @@ $(document).ready(function() {
 			once: true
 		})
 	}
+
+
+	var footerHeight = $('footer').height();
+	if ($(window).width() < 1025) {
+		$('body').css({'padding-bottom' : footerHeight + 45});
+	} else {
+		$('body').css({'padding-bottom' : footerHeight});
+	}
 });
 var words = $(".checks1").text().split(" ");
 $(".checks1").empty();

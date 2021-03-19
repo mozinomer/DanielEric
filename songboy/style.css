@@ -119,6 +119,7 @@ body.without-Login {
     position: absolute;
     width: 100%;
     top: 0;
+    z-index: 99999;
 }
 
 .formSignings {
@@ -908,4 +909,137 @@ a.forgot {
 }
 .contentContainerReapeater .butt:hover img {
     filter: invert(1);
+}
+footer {
+    background: url('./images/43.png');
+    background-attachment: fixed;
+    color: #ffff;
+    width: 100%;
+}
+
+footer h6 {
+    font-family: 'pbold';
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+footer a {
+    font-family: 'pregular';
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    line-height: normal;
+}
+
+footer a:hover {
+    opacity: 1;
+    color: #f5bc41;
+}
+
+.footerListItems {
+    max-width: max-content;
+    /* margin: auto; */
+}
+
+.topFooter {
+    padding: 60px 0px 0px;
+}
+
+.copyRights {
+    border-top: 1px solid #cccccc4d;
+    padding: 20px 0px;
+    font-family: 'pregular';
+    margin: 50px 0px 0px;
+}
+
+.copyRights .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksCopyrights a {
+    display: inline-block;
+    margin: 0px;
+}
+
+.linksCopyrights a:nth-child(even) {
+    margin: 0px 15px;
+}
+
+.copyRights p {
+    font-family: 'pregular';
+}
+
+footer p {
+    font-family: 'pregular';
+}
+
+.logContainer p {
+    line-height: 22px;
+    font-size: 14px;
+    margin: 20px 0px;
+    opacity: 0.6;
+}
+
+ul.socialLInksLIst {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logContainer .newsLetter {
+    display: none;
+}
+
+.newsLetter input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid #ccc;
+}
+
+.newsLetter {
+    margin: 60px 0px 0px;
+}
+
+.newsLetter input {
+    color: #fff;
+}
+
+.newsLetter button {
+    font-family: 'pextrabold';
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding: 8px 30px;
+}
+
+.newsLetter button:hover {
+    padding: 8px 30px;
+}
+footer .container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0px;
+}
+div#quickLinks .footerListItems {
+    margin: auto;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+.main {
+    background: #fff;
+    z-index: 2;
+    position: relative;
+}
+body {
+    padding-bottom: 500px;
+    background: #fff;
 }
