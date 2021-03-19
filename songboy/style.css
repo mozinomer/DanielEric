@@ -636,6 +636,7 @@ input, textarea {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    text-transform: capitalize;
 }
 
 .bannerPageContainer h2 {
@@ -729,7 +730,7 @@ span.title {
 .Rightbox .contentContainerLeftBox {
     background: #000a13;
 }
-h2.pregular {
+h2.pregular, h2 {
     font-family: pextrabold !important;
 }
 @media only screen and (max-width: 1040px) {
@@ -740,4 +741,112 @@ h2.pregular {
 }
 .header li a:hover {
     color: #f3b839;
+}
+.aboutSection .row {
+    align-items: center;
+}
+
+.aboutSection {
+    padding: 100px 0px;
+}
+.aboutSectionContent {
+    padding-right: 100px;
+}
+
+.aboutSectionContent p {
+    font-family: pregular;
+    margin: 20px 0px;
+    color: #191919;
+    opacity: 0.7;
+    line-height: 28px;
+}
+
+.aboutSectionContent h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.aboutSectionContent a {
+    margin-top: 40px;
+}
+
+.aboutSectionContent a:hover img {
+    filter: invert(1);
+}
+
+.section2abour {
+    max-width: 1540px;
+    margin: auto;
+    background: #0201FC;
+}
+
+.videoContainerAboutPage {
+    height: 100%;
+    min-height: 600px;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentBlueAbout {
+    height: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 50px 100px;
+    color: #fff;
+}
+
+.contentBlueAbout h2 {
+    font-size: 32px;
+}
+
+.contentBlueAbout p {
+    font-family: 'pregular';
+    margin-top: 29px;
+    line-height: 28px;
+    /* font-size: 16px; */
+    max-width: 70%;
+}
+
+.containerCutsom .col-md-4 {
+    padding: 0px;
+}
+
+.imageContainerInnerBOxAboutVission {
+    min-height: 300px;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.containerInnerAboutBox h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.containerInnerAboutBox p {
+    margin-bottom: 40px;
+    font-family: 'pregular';
+    max-width: 80%;
+    line-height: 28px;
+    color: #191919;
+    opacity: 0.7;
+}
+
+.vissionsAboutPage {
+    padding: 100px 0px;
+}
+
+div#box2AboutBoxCOntianer {
+    margin-top: 100px;
+    /* padding: 0px 30px; */
+}
+
+.containerInnerAboutBox {
+    padding: 0px 20px;
 }
