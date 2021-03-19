@@ -664,6 +664,10 @@ input, textarea {
 
 .imageWrtapperContainer {
     position: relative;
+    min-height: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 img.halfCircleimage {
